@@ -5,4 +5,4 @@ $app->initLayout('Centered');
 $button = $app->add ('Button');
 $button->set ('report');
 $button->icon = 'plus';
-$button->link('https://ss.som');
+$button->link('https://www.steamcommunity.com');
