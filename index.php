@@ -5,3 +5,4 @@ $app->initLayout('Centered');
 $button = $app->add ('Button');
 $button->set ('report');
 $button->icon = 'plus';
+$button->link('https://www.ss.som');
