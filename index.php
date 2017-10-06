@@ -12,5 +12,5 @@ $button1->link('https://www.youtube.com');
 $button2 = $app->add ('Button');
 $button2->set ('diiiimooooon');
 $button2->icon = 'Heartbeat';
-$button2->addClass ('massive blue')
-$button2->link('https://www.e-klase.lv')
+$button2->addClass ('massive blue');
+$button2->link('https://www.e-klase.lv');
