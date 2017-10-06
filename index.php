@@ -19,7 +19,7 @@ $button2->link('https://www.e-klase.lv');
 $button2 = $app->add(['Button','Kurvish','iconRight'=>'right arrow']);
 $button3->addClass ('green');
 
-$bar = $app-add(['ui'=>'vertical buttons']);
+$bar = $app->add(['ui'=>'vertical buttons']);
 $bar->add(['Button', 'lok', 'icon'=>'lok']);
 $bar->add(['Button','puk','icon'=>'puk']);
 $bar->add(['Button','kol','icon'=>'kol');
