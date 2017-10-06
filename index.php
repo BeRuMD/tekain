@@ -14,3 +14,4 @@ $button2->set ('diiiimooooon');
 $button2->icon = 'Heartbeat';
 $button2->addClass ('massive blue');
 $button2->link('https://www.e-klase.lv');
+$button2 = $app->add(['Button','Kurvish','iconRight'=>'right arrow']);
