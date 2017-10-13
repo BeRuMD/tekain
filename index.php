@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$app=new\atk4\ui\App('Meincraft');
+$app=new \atk4\ui\App('Meincraft');
 $app->initLayout('Centered');
 /*$button = $app->add ('Button');
 $button->set ('report');
@@ -27,4 +27,4 @@ $bar->add(['Button','kndr','icon'=>'kndr']);
 */
 $button = $app->add('Button');
 $button->set ('bot');
-$button -> link('borshcht.php')
+$button -> link('borshcht.php');
