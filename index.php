@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$app=new \atk4\ui\App('Meincraft');
+$app=new \atk4\ui\App('SlavaUkraine');
 $app->initLayout('Centered');
 /*$button = $app->add ('Button');
 $button->set ('report');
