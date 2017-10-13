@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 $app=new\atk4\ui\App('Meincraft');
 $app->initLayout('Centered');
-$button = $app->add ('Button');
+/*$button = $app->add ('Button');
 $button->set ('report');
 $button->icon = 'bug';
 $button->link('https://www.steamcommunity.com');
@@ -24,3 +24,7 @@ $bar->add(['Button', 'lok', 'icon'=>'lok']);
 $bar->add(['Button','puk','icon'=>'puk']);
 $bar->add(['Button','kol','icon'=>'kol');
 $bar->add(['Button','kndr','icon'=>'kndr']);
+*/
+$button = $app->add('Button');
+$button->set ('bot');
+$button -> link('borshcht.php')
