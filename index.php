@@ -35,4 +35,4 @@ $button = $app -> add ('Button');
 $button -> set ('just try');
 $button->icon = 'find';
 $button -> addClass ('massive red');
-$button -> link(['game','min'=>1,'max'=>100]);
+$button -> link(['game','min'=>0,'max'=>100,'key'=>'key']);
